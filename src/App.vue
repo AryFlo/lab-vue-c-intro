@@ -29,15 +29,16 @@
         <h3>Approachable</h3>
         <p>
           Builds on top of standard HTML,<br />
-          CSS and JavaScript with intuitive API and world-class documentation.
+          CSS and JavaScript with intuitive API and <br />
+          world-class documentation.
         </p>
       </div>
       <div class="Versatile">
         <img src="/USP-3.png" alt="image" class="info-image" />
         <h3>Versatile</h3>
         <p>
-          A rich, incrementally adoptable ecosystem that scales<br />
-          between a library and a full-featured framework.
+          A rich, incrementally adoptable ecosystem<br />
+          that scales between a library and <br />a full-featured framework.
         </p>
       </div>
     </div>
@@ -150,6 +151,22 @@ p {
   text-align: center;
 }
 .performant {
-  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.approchable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.Versatile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 </style>
